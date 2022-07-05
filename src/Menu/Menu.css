@@ -1,0 +1,38 @@
+.menu{
+    margin: 0;
+list-style-type: none;
+text-align: right;
+background: greenyellow;
+line-height: 40px;
+}
+.menu > li{
+    display: inline;
+margin-right: 15px;
+letter-spacing: 4px;
+cursor: pointer;
+}
+.menu-active{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mobile-menu-btn{
+    position: absolute;
+    right: 0;
+    top: 50pxpx;
+}
+.mobile-menu{
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 53px;
+    transition: left 1s;
+    text-align: left !important;
+}
+.mobile-menu > li{
+    display: block !important;
+}
+
+
+
+
